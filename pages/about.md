@@ -8,20 +8,24 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
+{% include feature/jumbotron.html objectid="filmphoto033" %}
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+{% include feature/nav-menu.html sections="About the Collection" %}
 
 ## About the Collection
 
-This site is generated using [CollectionBuilder-GH](https://collectionbuilding.github.io/gh/), a project to create a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from: 
+I started shooting film in 2025 as a way to slow down and pay closer attention 
+to what I was photographing. Unlike digital, film gives you no instant feedback 
+— you make a choice, and you don't see the result until the roll comes back. 
+That constraint taught me more about composition and light than years of 
+casual digital photos ever did.
 
-- a CSV of collection metadata
-- a folder of JPG images or PDF documents
+This collection includes 43 photographs shot on 110mm and 120mm film across 
+two very different landscapes: the density of Manhattan and Brooklyn, and the 
+quieter Pacific Northwest coastline near Mukilteo, Washington. Some images are 
+black and white, others color, and together they trace my first year of 
+learning the medium.
 
-The template repository features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
-
-For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
-
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+This site was built with [CollectionBuilder](https://collectionbuilder.github.io/), 
+an open-source tool for creating digital collection websites from a spreadsheet 
+of metadata and a folder of media files.
